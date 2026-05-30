@@ -1,0 +1,21 @@
+{
+  "dataset_id": "GSE27272",
+  "label_column": "smoking status:ch1",
+  "sample_id_column": "sample_id",
+  "positive_raw": "smoker",
+  "negative_raw": "non-smoker",
+  "positive_label": "smoker",
+  "negative_label": "non_smoker",
+  "exclude_raw_values": [],
+  "n_samples": 183,
+  "n_features": 24526,
+  "class_counts": {
+    "non_smoker": 128,
+    "smoker": 55
+  },
+  "x_path": "data/final/GSE27272/X_features_x_samples.csv",
+  "y_path": "data/final/GSE27272/y.csv",
+  "source_expression_path": "data/processed/GSE27272/expression_matrix_features_x_samples.csv",
+  "source_metadata_path": "data/processed/GSE27272/sample_metadata.csv",
+  "notes": "Smoking status; includes multiple tissue types, should be documented as such."
+}

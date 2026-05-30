@@ -1,0 +1,21 @@
+{
+  "dataset_id": "GSE25837",
+  "label_column": "characteristics_ch1",
+  "sample_id_column": "sample_id",
+  "positive_raw": "lonely: 1",
+  "negative_raw": "lonely: 0",
+  "positive_label": "lonely",
+  "negative_label": "not_lonely",
+  "exclude_raw_values": [],
+  "n_samples": 93,
+  "n_features": 18630,
+  "class_counts": {
+    "lonely": 23,
+    "not_lonely": 70
+  },
+  "x_path": "data/final/GSE25837/X_features_x_samples.csv",
+  "y_path": "data/final/GSE25837/y.csv",
+  "source_expression_path": "data/processed/GSE25837/expression_matrix_features_x_samples.csv",
+  "source_metadata_path": "data/processed/GSE25837/sample_metadata.csv",
+  "notes": "Loneliness binary label from characteristics_ch1."
+}

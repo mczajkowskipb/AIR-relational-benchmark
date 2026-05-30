@@ -1,0 +1,21 @@
+{
+  "dataset_id": "GSE10072",
+  "label_column": "source_name_ch1",
+  "sample_id_column": "sample_id",
+  "positive_raw": "Adenocarcinoma of the Lung",
+  "negative_raw": "Normal Lung Tissue",
+  "positive_label": "tumor",
+  "negative_label": "normal",
+  "exclude_raw_values": [],
+  "n_samples": 107,
+  "n_features": 22283,
+  "class_counts": {
+    "normal": 49,
+    "tumor": 58
+  },
+  "x_path": "data/final/GSE10072/X_features_x_samples.csv",
+  "y_path": "data/final/GSE10072/y.csv",
+  "source_expression_path": "data/processed/GSE10072/expression_matrix_features_x_samples.csv",
+  "source_metadata_path": "data/processed/GSE10072/sample_metadata.csv",
+  "notes": "Adenocarcinoma lung tumor vs normal lung tissue."
+}

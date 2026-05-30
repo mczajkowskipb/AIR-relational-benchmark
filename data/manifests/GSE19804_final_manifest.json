@@ -1,0 +1,21 @@
+{
+  "dataset_id": "GSE19804",
+  "label_column": "tissue:ch1",
+  "sample_id_column": "sample_id",
+  "positive_raw": "lung cancer",
+  "negative_raw": "paired normal adjacent",
+  "positive_label": "tumor",
+  "negative_label": "normal",
+  "exclude_raw_values": [],
+  "n_samples": 120,
+  "n_features": 54675,
+  "class_counts": {
+    "normal": 60,
+    "tumor": 60
+  },
+  "x_path": "data/final/GSE19804/X_features_x_samples.csv",
+  "y_path": "data/final/GSE19804/y.csv",
+  "source_expression_path": "data/processed/GSE19804/expression_matrix_features_x_samples.csv",
+  "source_metadata_path": "data/processed/GSE19804/sample_metadata.csv",
+  "notes": "Primary lung cancer vs paired adjacent normal tissue."
+}
