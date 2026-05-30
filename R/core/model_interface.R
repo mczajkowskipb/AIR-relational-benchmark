@@ -1,17 +1,3 @@
-# Common method interface utilities.
-#
-# Each method wrapper should return a list with:
-# - predictions: per-sample predictions
-# - metrics: per-fold metrics
-# - model_info: model size / method-specific metadata
-# - runtime: train and predict time
-#
-# Convention:
-# - X matrices are samples x features.
-# - truth and pred are class labels.
-# - score should be a numeric score for the positive class, if available.
-# - if probabilities are unavailable, score can be NA.
-
 make_sample_ids <- function(x, prefix = "sample") {
   if (!is.null(rownames(x))) {
     return(rownames(x))
@@ -19,13 +5,7 @@ make_sample_ids <- function(x, prefix = "sample") {
   paste0(prefix, "_", seq_len(nrow(x)))
 }
 
-make_prediction_table <- function(
-  sample_id,
-  truth,
-  pred,
-  score = NULL,
-  positive = NULL
-) {
+make_prediction_table <- function(sample_id, truth, pred, score = NULL, positive = NULL) {
   truth <- factor(truth)
   pred <- factor(pred, levels = levels(truth))
 
@@ -34,10 +14,10 @@ make_prediction_table <- function(
   }
 
   if (is.null(positive)) {
-    if (length(levels(truth)) != 2) {
-      positive <- NA_character_
-    } else {
+    if (length(levels(truth)) == 2) {
       positive <- levels(truth)[2]
+    } else {
+      positive <- NA_character_
     }
   }
 
@@ -51,17 +31,12 @@ make_prediction_table <- function(
   )
 }
 
-make_runtime_table <- function(
-  method_id,
-  train_seconds,
-  predict_seconds,
-  total_seconds = train_seconds + predict_seconds
-) {
+make_runtime_table <- function(method_id, train_seconds, predict_seconds) {
   data.frame(
     method_id = method_id,
     train_seconds = as.numeric(train_seconds),
     predict_seconds = as.numeric(predict_seconds),
-    total_seconds = as.numeric(total_seconds),
+    total_seconds = as.numeric(train_seconds) + as.numeric(predict_seconds),
     stringsAsFactors = FALSE
   )
 }
