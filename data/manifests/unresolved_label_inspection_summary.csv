@@ -1,0 +1,4 @@
+dataset_id,metadata_type,n_samples,n_columns,inspection_csv,inspection_md
+GSE17920,GSE_sample_metadata,130,55,data/manifests/GSE17920_all_metadata_columns.csv,docs/GSE17920_metadata_inspection.md
+GSE3365,GSE_sample_metadata,127,32,data/manifests/GSE3365_all_metadata_columns.csv,docs/GSE3365_metadata_inspection.md
+GSE6613,GSE_sample_metadata,105,30,data/manifests/GSE6613_all_metadata_columns.csv,docs/GSE6613_metadata_inspection.md
