@@ -1,0 +1,9 @@
+dataset_id,label_column,sample_id_column,positive_raw,negative_raw,positive_label,negative_label,exclude_raw_values,status,notes
+GDS2771,disease.state,sample,cancer,no cancer,cancer,no_cancer,suspect cancer,APPROVED,"Exclude suspect cancer samples; binary cancer vs no cancer."
+GSE10072,source_name_ch1,sample_id,Adenocarcinoma of the Lung,Normal Lung Tissue,tumor,normal,,APPROVED,"Adenocarcinoma lung tumor vs normal lung tissue."
+GSE17920,,,,,,,,NEEDS_MANUAL_DECISION,"Ambiguous: likely relapse/outcome-related; requires verification against original benchmark definition."
+GSE19804,tissue:ch1,sample_id,lung cancer,paired normal adjacent,tumor,normal,,APPROVED,"Primary lung cancer vs paired adjacent normal tissue."
+GSE25837,characteristics_ch1,sample_id,lonely: 1,lonely: 0,lonely,not_lonely,,APPROVED,"Loneliness binary label from characteristics_ch1."
+GSE27272,smoking status:ch1,sample_id,smoker,non-smoker,smoker,non_smoker,,APPROVED,"Smoking status; includes multiple tissue types, should be documented as such."
+GSE3365,,,,,,,,NEEDS_MANUAL_DECISION,"Needs manual decision; source_name/description fields have multiple groups."
+GSE6613,,,,,,,,NEEDS_MANUAL_DECISION,"Needs manual decision; characteristics/source fields require inspection."
