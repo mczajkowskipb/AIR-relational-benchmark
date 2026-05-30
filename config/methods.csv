@@ -10,7 +10,7 @@
 "ger","relational","external","TBD","TODO","yes","TBD","relations","verify implementation used in manuscript"
 "rankcompv2","relational","external","TBD","TODO","yes","TBD","relations","verify implementation used in manuscript"
 "ranktreeensemble","relational_tree","external","TBD","TODO","yes","TBD","tree_nodes","verify implementation used in manuscript"
-"tspdt_bigtsp","relational_tree","BigTSP","R","PASS_WRAPPER","no","TBD","tree_nodes","BigTSP::tsp.tree / TSP-tree implementation"
+"tspdt_bigtsp","relational_tree","BigTSP","R","PASS_SMOKE","no","TBD","tree_nodes","BigTSP::tsp.tree / TSP-tree implementation"
 "rrf_ranktreeensemble","relational_tree_ensemble","ranktreeEnsemble","R","PASS_WRAPPER","no","yes","tree_nodes_or_rules","Random Rank Forest / rank-based tree ensemble candidate implementation"
 "rtb_ranktreeensemble","relational_tree_ensemble","ranktreeEnsemble","R","PASS_WRAPPER","no","yes","tree_nodes_or_rules","Rank-based tree boosting candidate implementation"
 "knn_rrm","relational_knn","pyRRM_or_external_python","Python","TODO","yes","score",NA,"KNN with Relative Relation Metric; probe later in isolated Python environment"

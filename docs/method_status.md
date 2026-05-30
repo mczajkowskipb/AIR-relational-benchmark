@@ -16,7 +16,7 @@ Status labels:
 | majority | PASS_SMOKE | Majority-class baseline passed real-fold smoke test on all eight datasets. |
 | switchbox_tsp | PASS_SMOKE | Internal classical TSP wrapper passed real-fold smoke test on all eight datasets; used because switchBox k=1 has an object-shape edge case. |
 | switchbox_ktsp | PASS_SMOKE | switchBox k-TSP passed real-fold smoke test on all eight datasets. |
-| tspdt_bigtsp | PASS_WRAPPER | `BigTSP` installed from CRAN archive; `tsp.tree` exported and functional probe passed. Prediction requires `newdata` with response in the first column. |
+| tspdt_bigtsp | PASS_SMOKE | BigTSP TSP-tree passed real-fold smoke test on all eight datasets. Prediction requires `newdata` with response in the first column. |
 | rrf_ranktreeensemble | PASS_WRAPPER | `ranktreeEnsemble::rforest` functional probe passed, including prediction, importance, and rule extraction. |
 | rtb_ranktreeensemble | PASS_ENV | `ranktreeEnsemble::rboost` package environment available; functional smoke pending unless needed for manuscript coverage. |
 | glmnet_enet | PASS_ENV | `glmnet` installed and loadable; benchmark wrapper pending. |
