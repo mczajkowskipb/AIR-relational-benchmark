@@ -1,0 +1,13 @@
+{
+  "dataset_id": "GSE3365",
+  "geo_type": "GSE",
+  "selected_series_index": 1,
+  "n_series_objects": 1,
+  "n_features": 22283,
+  "n_samples": 127,
+  "expression_path": "data/processed/GSE3365/expression_matrix_features_x_samples.csv",
+  "sample_metadata_path": "data/processed/GSE3365/sample_metadata.csv",
+  "feature_annotation_path": "data/processed/GSE3365/feature_annotation.csv",
+  "candidate_label_columns": ["title", "source_name_ch1", "status", "description", "description.1", "description.2", "description.3", "description.4"],
+  "raw_rds_path": "data/raw/GSE3365/GSE3365_GEOquery_raw.rds"
+}

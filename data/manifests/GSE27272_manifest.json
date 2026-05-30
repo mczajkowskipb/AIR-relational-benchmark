@@ -1,0 +1,13 @@
+{
+  "dataset_id": "GSE27272",
+  "geo_type": "GSE",
+  "selected_series_index": 1,
+  "n_series_objects": 1,
+  "n_features": 24526,
+  "n_samples": 183,
+  "expression_path": "data/processed/GSE27272/expression_matrix_features_x_samples.csv",
+  "sample_metadata_path": "data/processed/GSE27272/sample_metadata.csv",
+  "feature_annotation_path": "data/processed/GSE27272/feature_annotation.csv",
+  "candidate_label_columns": ["title", "source_name_ch1", "characteristics_ch1", "characteristics_ch1.1", "characteristics_ch1.2", "characteristics_ch1.3", "characteristics_ch1.4", "characteristics_ch1.5", "characteristics_ch1.6", "characteristics_ch1.7", "characteristics_ch1.8", "characteristics_ch1.9", "characteristics_ch1.10", "characteristics_ch1.11", "characteristics_ch1.12", "status", "smoking status:ch1", "tissue:ch1", "description", "description.1"],
+  "raw_rds_path": "data/raw/GSE27272/GSE27272_GEOquery_raw.rds"
+}

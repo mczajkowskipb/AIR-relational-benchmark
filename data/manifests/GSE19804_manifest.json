@@ -1,0 +1,13 @@
+{
+  "dataset_id": "GSE19804",
+  "geo_type": "GSE",
+  "selected_series_index": 1,
+  "n_series_objects": 1,
+  "n_features": 54675,
+  "n_samples": 120,
+  "expression_path": "data/processed/GSE19804/expression_matrix_features_x_samples.csv",
+  "sample_metadata_path": "data/processed/GSE19804/sample_metadata.csv",
+  "feature_annotation_path": "data/processed/GSE19804/feature_annotation.csv",
+  "candidate_label_columns": ["title", "source_name_ch1", "characteristics_ch1", "characteristics_ch1.1", "characteristics_ch1.2", "characteristics_ch1.3", "status", "tissue:ch1", "description"],
+  "raw_rds_path": "data/raw/GSE19804/GSE19804_GEOquery_raw.rds"
+}

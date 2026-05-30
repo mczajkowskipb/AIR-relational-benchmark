@@ -1,0 +1,12 @@
+{
+  "dataset_id": "GDS2771",
+  "geo_type": "GDS",
+  "n_features": 22283,
+  "n_samples_detected_from_GSM_columns": 192,
+  "gds_table_path": "data/processed/GDS2771/gds_table.csv",
+  "gds_columns_path": "data/processed/GDS2771/gds_columns.csv",
+  "gds_meta_path": "data/processed/GDS2771/gds_meta.json",
+  "expression_path": "data/processed/GDS2771/expression_matrix_features_x_samples.csv",
+  "candidate_label_columns": ["disease.state", "description"],
+  "raw_rds_path": "data/raw/GDS2771/GDS2771_GEOquery_raw.rds"
+}

@@ -1,0 +1,9 @@
+dataset_id,status,geo_type,n_features,n_samples,selected_series_index,manifest_path
+GDS2771,PREPARED,GDS,22283,192,,data/manifests/GDS2771_manifest.json
+GSE10072,PREPARED,GSE,22283,107,1,data/manifests/GSE10072_manifest.json
+GSE17920,PREPARED,GSE,54675,130,1,data/manifests/GSE17920_manifest.json
+GSE19804,PREPARED,GSE,54675,120,1,data/manifests/GSE19804_manifest.json
+GSE25837,PREPARED,GSE,18630,93,1,data/manifests/GSE25837_manifest.json
+GSE27272,PREPARED,GSE,24526,183,1,data/manifests/GSE27272_manifest.json
+GSE3365,PREPARED,GSE,22283,127,1,data/manifests/GSE3365_manifest.json
+GSE6613,PREPARED,GSE,22283,105,1,data/manifests/GSE6613_manifest.json
