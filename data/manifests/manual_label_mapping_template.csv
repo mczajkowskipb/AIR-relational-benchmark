@@ -1,0 +1,9 @@
+dataset_id,final_label_column,positive_class,negative_class,include_rule,exclude_rule,n_samples_after_filtering,status,notes
+GDS2771,"","","","","","",NEEDS_MANUAL_DECISION,""
+GSE10072,"","","","","","",NEEDS_MANUAL_DECISION,""
+GSE17920,"","","","","","",NEEDS_MANUAL_DECISION,""
+GSE19804,"","","","","","",NEEDS_MANUAL_DECISION,""
+GSE25837,"","","","","","",NEEDS_MANUAL_DECISION,""
+GSE27272,"","","","","","",NEEDS_MANUAL_DECISION,""
+GSE3365,"","","","","","",NEEDS_MANUAL_DECISION,""
+GSE6613,"","","","","","",NEEDS_MANUAL_DECISION,""

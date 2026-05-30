@@ -1,0 +1,9 @@
+dataset_id,column_name,n_samples,n_missing,n_unique,top_values,metadata_type
+GSE6613,title,105,0,105,healthy control sample x004 [n=1] || healthy control sample x005 [n=1] || healthy control sample x027 [n=1] || healthy control sample x044a [n=1] || healthy control sample x050 [n=1] || healthy control sample x058 [n=1] || healthy control sample x062 [n=1] || healthy control sample x072 [n=1] || healthy control sample x097 [n=1] || healthy control sample x112 [n=1] || healthy control sample x117 [n=1] || healthy control sample x120 [n=1] || healthy control sample x121 [n=1] || healthy control sample x169 [n=1] || healthy control sample x171 [n=1],GSE_sample_metadata
+GSE6613,source_name_ch1,105,0,1,whole blood [n=105],GSE_sample_metadata
+GSE6613,characteristics_ch1,105,0,3,Parkinson's disease [n=50] || neurological disease control [n=33] || healthy control [n=22],GSE_sample_metadata
+GSE6613,status,105,0,1,Public on Dec 30 2006 [n=105],GSE_sample_metadata
+GSE6613,description,105,0,7,Whole blood from a patient with Parkinson's disease [n=50] || Whole blood from a patient with Alzheimer's disease [n=23] || Whole blood from a healthy control [n=22] || Whole blood from a patient with progressive supranuclear palsy [n=6] || Whole blood from a patient with multiple system atrophy [n=2] || Whole blood from a patient with corticobasal degeneration [n=1] || Whole blood from a patient with essential tremor [n=1],GSE_sample_metadata
+GSE6613,type,105,0,1,RNA [n=105],GSE_sample_metadata
+GSE6613,organism_ch1,105,0,1,Homo sapiens [n=105],GSE_sample_metadata
+GSE6613,sample_id,105,0,105,GSM153404 [n=1] || GSM153405 [n=1] || GSM153406 [n=1] || GSM153407 [n=1] || GSM153408 [n=1] || GSM153409 [n=1] || GSM153410 [n=1] || GSM153411 [n=1] || GSM153412 [n=1] || GSM153413 [n=1] || GSM153414 [n=1] || GSM153415 [n=1] || GSM153416 [n=1] || GSM153417 [n=1] || GSM153418 [n=1],GSE_sample_metadata

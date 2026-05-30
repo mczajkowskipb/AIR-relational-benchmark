@@ -1,0 +1,16 @@
+dataset_id,column_name,n_samples,n_missing,n_unique,top_values,metadata_type
+GSE10072,title,107,0,107,Lung Tumor_GT00006 [n=1] || Lung Tumor_GT00007 [n=1] || Lung Tumor_GT00022 [n=1] || Lung Tumor_GT00042 [n=1] || Lung Tumor_GT00059 [n=1] || Lung Tumor_GT00146 [n=1] || Lung Tumor_GT01001 [n=1] || Lung Tumor_GT01003 [n=1] || Lung Tumor_GT01011 [n=1] || Lung Tumor_GT01017 [n=1] || Lung Tumor_GT01019 [n=1] || Lung Tumor_GT01025 [n=1] || Lung Tumor_GT01034 [n=1] || Lung Tumor_GT01036 [n=1] || Lung Tumor_GT01038 [n=1],GSE_sample_metadata
+GSE10072,source_name_ch1,107,0,2,Adenocarcinoma of the Lung [n=58] || Normal Lung Tissue [n=49],GSE_sample_metadata
+GSE10072,characteristics_ch1,107,0,2,Gender: Male [n=69] || Gender: Female [n=38],GSE_sample_metadata
+GSE10072,characteristics_ch1.1,107,0,31,Age at Diagnosis: 71 [n=9] || Age at Diagnosis: 67 [n=8] || Age at Diagnosis: 63 [n=7] || Age at Diagnosis: 68 [n=7] || Age at Diagnosis: 73 [n=7] || Age at Diagnosis: 59 [n=6] || Age at Diagnosis: 69 [n=6] || Age at Diagnosis: 65 [n=5] || Age at Diagnosis: 61 [n=4] || Age at Diagnosis: 62 [n=4] || Age at Diagnosis: 66 [n=4] || Age at Diagnosis: 70 [n=4] || Age at Diagnosis: 74 [n=4] || Age at Diagnosis: 60 [n=3] || Age at Diagnosis: 75 [n=3],GSE_sample_metadata
+GSE10072,characteristics_ch1.2,107,0,3,Cigarette Smoking Status: Current Smoker [n=40] || Cigarette Smoking Status: Former Smoker [n=36] || Cigarette Smoking Status: Never Smoked [n=31],GSE_sample_metadata
+GSE10072,characteristics_ch1.3,107,0,7,Stage:IB [n=33] || Stage:IIB [n=31] || Stage:IIIA [n=16] || Stage:IA [n=12] || Stage:IV [n=6] || Stage:IIIB [n=5] || Stage:IIA [n=4],GSE_sample_metadata
+GSE10072,Age at Diagnosis:ch1,107,0,31,71 [n=9] || 67 [n=8] || 63 [n=7] || 68 [n=7] || 73 [n=7] || 59 [n=6] || 69 [n=6] || 65 [n=5] || 61 [n=4] || 62 [n=4] || 66 [n=4] || 70 [n=4] || 74 [n=4] || 60 [n=3] || 75 [n=3],GSE_sample_metadata
+GSE10072,status,107,0,1,Public on Feb 20 2008 [n=107],GSE_sample_metadata
+GSE10072,Cigarette Smoking Status:ch1,107,0,3,Current Smoker [n=40] || Former Smoker [n=36] || Never Smoked [n=31],GSE_sample_metadata
+GSE10072,description,107,0,1,Gene expression data [n=107],GSE_sample_metadata
+GSE10072,type,107,0,1,RNA [n=107],GSE_sample_metadata
+GSE10072,organism_ch1,107,0,1,Homo sapiens [n=107],GSE_sample_metadata
+GSE10072,sample_id,107,0,107,GSM254625 [n=1] || GSM254626 [n=1] || GSM254627 [n=1] || GSM254628 [n=1] || GSM254629 [n=1] || GSM254630 [n=1] || GSM254631 [n=1] || GSM254632 [n=1] || GSM254633 [n=1] || GSM254634 [n=1] || GSM254635 [n=1] || GSM254636 [n=1] || GSM254637 [n=1] || GSM254638 [n=1] || GSM254639 [n=1],GSE_sample_metadata
+GSE10072,Gender:ch1,107,0,2,Male [n=69] || Female [n=38],GSE_sample_metadata
+GSE10072,Stage:ch1,107,0,7,IB [n=33] || IIB [n=31] || IIIA [n=16] || IA [n=12] || IV [n=6] || IIIB [n=5] || IIA [n=4],GSE_sample_metadata

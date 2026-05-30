@@ -1,0 +1,14 @@
+dataset_id,column_name,n_samples,n_missing,n_unique,top_values,metadata_type
+GSE19804,title,120,0,120,Lung Cancer 102T [n=1] || Lung Cancer 103T [n=1] || Lung Cancer 106T [n=1] || Lung Cancer 109T [n=1] || Lung Cancer 114T [n=1] || Lung Cancer 115T [n=1] || Lung Cancer 116T [n=1] || Lung Cancer 117T [n=1] || Lung Cancer 118T [n=1] || Lung Cancer 119T [n=1] || Lung Cancer 120T [n=1] || Lung Cancer 121T [n=1] || Lung Cancer 122T [n=1] || Lung Cancer 123T [n=1] || Lung Cancer 124T [n=1],GSE_sample_metadata
+GSE19804,source_name_ch1,120,0,2,frozen tissue of adjacent normal [n=60] || frozen tissue of primary tumor [n=60],GSE_sample_metadata
+GSE19804,characteristics_ch1,120,0,2,tissue: lung cancer [n=60] || tissue: paired normal adjacent [n=60],GSE_sample_metadata
+GSE19804,characteristics_ch1.1,120,0,1,gender: female [n=120],GSE_sample_metadata
+GSE19804,characteristics_ch1.2,120,0,32,age: 59 [n=10] || age: 55 [n=8] || age: 76 [n=8] || age: 57 [n=6] || age: 61 [n=6] || age: 62 [n=6] || age: 48 [n=4] || age: 51 [n=4] || age: 53 [n=4] || age: 56 [n=4] || age: 64 [n=4] || age: 65 [n=4] || age: 68 [n=4] || age: 69 [n=4] || age: 70 [n=4],GSE_sample_metadata
+GSE19804,characteristics_ch1.3,120,0,10,stage: n/a [n=60] || stage: 1B [n=19] || stage: 1A [n=15] || stage: 3A [n=8] || stage: 2B [n=7] || stage: 2A [n=4] || stage: 3B [n=4] || stage: 1 [n=1] || stage: 2 [n=1] || stage: 4 [n=1],GSE_sample_metadata
+GSE19804,status,120,0,1,Public on Jan 30 2011 [n=120],GSE_sample_metadata
+GSE19804,tissue:ch1,120,0,2,lung cancer [n=60] || paired normal adjacent [n=60],GSE_sample_metadata
+GSE19804,description,120,0,120,Gene expression data from 102N [n=1] || Gene expression data from 102T [n=1] || Gene expression data from 103N [n=1] || Gene expression data from 103T [n=1] || Gene expression data from 106N [n=1] || Gene expression data from 106T [n=1] || Gene expression data from 109N [n=1] || Gene expression data from 109T [n=1] || Gene expression data from 114N [n=1] || Gene expression data from 114T [n=1] || Gene expression data from 115N [n=1] || Gene expression data from 115T [n=1] || Gene expression data from 116N [n=1] || Gene expression data from 116T [n=1] || Gene expression data from 117N [n=1],GSE_sample_metadata
+GSE19804,type,120,0,1,RNA [n=120],GSE_sample_metadata
+GSE19804,organism_ch1,120,0,1,Homo sapiens [n=120],GSE_sample_metadata
+GSE19804,sample_id,120,0,120,GSM494556 [n=1] || GSM494557 [n=1] || GSM494558 [n=1] || GSM494559 [n=1] || GSM494560 [n=1] || GSM494561 [n=1] || GSM494562 [n=1] || GSM494563 [n=1] || GSM494564 [n=1] || GSM494565 [n=1] || GSM494566 [n=1] || GSM494567 [n=1] || GSM494568 [n=1] || GSM494569 [n=1] || GSM494570 [n=1],GSE_sample_metadata
+GSE19804,stage:ch1,120,0,10,n/a [n=60] || 1B [n=19] || 1A [n=15] || 3A [n=8] || 2B [n=7] || 2A [n=4] || 3B [n=4] || 1 [n=1] || 2 [n=1] || 4 [n=1],GSE_sample_metadata
