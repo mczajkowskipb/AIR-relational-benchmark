@@ -1,0 +1,9 @@
+protocol_id,dataset_id,repeats,folds,n_samples,class_counts,folds_path,balance_check_path
+smoke_2x2,GDS2771,2,2,192,cancer=102;no_cancer=90,data/folds/smoke_2x2__GDS2771.csv,data/folds/smoke_2x2__GDS2771__balance_check.csv
+smoke_2x2,GSE10072,2,2,107,normal=49;tumor=58,data/folds/smoke_2x2__GSE10072.csv,data/folds/smoke_2x2__GSE10072__balance_check.csv
+smoke_2x2,GSE17920,2,2,130,no_relapse=92;relapse=38,data/folds/smoke_2x2__GSE17920.csv,data/folds/smoke_2x2__GSE17920__balance_check.csv
+smoke_2x2,GSE19804,2,2,120,normal=60;tumor=60,data/folds/smoke_2x2__GSE19804.csv,data/folds/smoke_2x2__GSE19804__balance_check.csv
+smoke_2x2,GSE25837,2,2,93,lonely=23;not_lonely=70,data/folds/smoke_2x2__GSE25837.csv,data/folds/smoke_2x2__GSE25837__balance_check.csv
+smoke_2x2,GSE27272,2,2,183,non_smoker=128;smoker=55,data/folds/smoke_2x2__GSE27272.csv,data/folds/smoke_2x2__GSE27272__balance_check.csv
+smoke_2x2,GSE3365,2,2,127,ibd=85;normal=42,data/folds/smoke_2x2__GSE3365.csv,data/folds/smoke_2x2__GSE3365__balance_check.csv
+smoke_2x2,GSE6613,2,2,105,control=55;parkinson=50,data/folds/smoke_2x2__GSE6613.csv,data/folds/smoke_2x2__GSE6613__balance_check.csv

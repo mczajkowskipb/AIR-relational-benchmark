@@ -1,0 +1,17 @@
+repeat_id,fold_id,split,class_label,Freq
+1,1,test,control,28
+2,1,test,control,28
+1,2,test,control,27
+2,2,test,control,27
+1,1,train,control,27
+2,1,train,control,27
+1,2,train,control,28
+2,2,train,control,28
+1,1,test,parkinson,25
+2,1,test,parkinson,25
+1,2,test,parkinson,25
+2,2,test,parkinson,25
+1,1,train,parkinson,25
+2,1,train,parkinson,25
+1,2,train,parkinson,25
+2,2,train,parkinson,25

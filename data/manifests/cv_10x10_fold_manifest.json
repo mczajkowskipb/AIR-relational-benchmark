@@ -1,0 +1,9 @@
+{
+  "protocol_id": "cv_10x10",
+  "repeats": 10,
+  "folds": 10,
+  "stratified": true,
+  "seed": 20260530,
+  "datasets": ["GDS2771", "GSE10072", "GSE17920", "GSE19804", "GSE25837", "GSE27272", "GSE3365", "GSE6613"],
+  "summary_path": "data/manifests/cv_10x10_fold_summary.csv"
+}

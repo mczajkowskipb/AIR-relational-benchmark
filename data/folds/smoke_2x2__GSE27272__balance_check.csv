@@ -1,0 +1,17 @@
+repeat_id,fold_id,split,class_label,Freq
+1,1,test,non_smoker,64
+2,1,test,non_smoker,64
+1,2,test,non_smoker,64
+2,2,test,non_smoker,64
+1,1,train,non_smoker,64
+2,1,train,non_smoker,64
+1,2,train,non_smoker,64
+2,2,train,non_smoker,64
+1,1,test,smoker,28
+2,1,test,smoker,28
+1,2,test,smoker,27
+2,2,test,smoker,27
+1,1,train,smoker,27
+2,1,train,smoker,27
+1,2,train,smoker,28
+2,2,train,smoker,28

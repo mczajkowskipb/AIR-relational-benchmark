@@ -1,0 +1,17 @@
+repeat_id,fold_id,split,class_label,Freq
+1,1,test,ibd,43
+2,1,test,ibd,43
+1,2,test,ibd,42
+2,2,test,ibd,42
+1,1,train,ibd,42
+2,1,train,ibd,42
+1,2,train,ibd,43
+2,2,train,ibd,43
+1,1,test,normal,21
+2,1,test,normal,21
+1,2,test,normal,21
+2,2,test,normal,21
+1,1,train,normal,21
+2,1,train,normal,21
+1,2,train,normal,21
+2,2,train,normal,21

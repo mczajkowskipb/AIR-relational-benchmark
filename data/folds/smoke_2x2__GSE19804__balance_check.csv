@@ -1,0 +1,17 @@
+repeat_id,fold_id,split,class_label,Freq
+1,1,test,normal,30
+2,1,test,normal,30
+1,2,test,normal,30
+2,2,test,normal,30
+1,1,train,normal,30
+2,1,train,normal,30
+1,2,train,normal,30
+2,2,train,normal,30
+1,1,test,tumor,30
+2,1,test,tumor,30
+1,2,test,tumor,30
+2,2,test,tumor,30
+1,1,train,tumor,30
+2,1,train,tumor,30
+1,2,train,tumor,30
+2,2,train,tumor,30
