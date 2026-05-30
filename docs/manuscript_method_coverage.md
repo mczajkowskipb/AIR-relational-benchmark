@@ -25,7 +25,7 @@ Status labels:
 | k-TSP | switchbox_ktsp | REQUIRED_RUNNABLE | PASS_WRAPPER | switchBox | Functional package probe passed. |
 | TSPDT / TSP-tree | tspdt_bigtsp | REQUIRED_RUNNABLE | PASS_WRAPPER | BigTSP::tsp.tree | BigTSP installed from CRAN archive; predict requires response column in newdata. |
 | Random Rank Forest / RRF | rrf_ranktreeensemble | REQUIRED_RUNNABLE | PASS_WRAPPER | ranktreeEnsemble | Probe next. |
-| Rank-tree boosting | rtb_ranktreeensemble | REQUIRED_RUNNABLE | PASS_ENV | ranktreeEnsemble | Include if reported or if package exposes boosting variant clearly. |
+| Rank-tree boosting | rtb_ranktreeensemble | REQUIRED_RUNNABLE | PASS_WRAPPER | ranktreeEnsemble | Include if reported or if package exposes boosting variant clearly. |
 | SVM+kTSP | svm_ktsp | REQUIRED_RUNNABLE | TODO | TBD | Requires exact historical implementation definition. |
 | GER | ger | REQUIRED_RUNNABLE | TODO | TBD | Requires exact implementation used in manuscript. |
 | RankCompV2 | rankcompv2 | REQUIRED_RUNNABLE | TODO | TBD | Check whether it belongs to Figure 4 benchmark or only review/status table. |
