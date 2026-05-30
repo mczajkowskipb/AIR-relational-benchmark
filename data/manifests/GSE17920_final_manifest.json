@@ -1,0 +1,21 @@
+{
+  "dataset_id": "GSE17920",
+  "label_column": "relapse type:ch1",
+  "sample_id_column": "sample_id",
+  "positive_raw_values": ["LATE", "REFRACTORY", "EARLY"],
+  "negative_raw_values": "_",
+  "positive_label": "relapse",
+  "negative_label": "no_relapse",
+  "exclude_raw_values": [],
+  "n_samples": 130,
+  "n_features": 54675,
+  "class_counts": {
+    "no_relapse": 92,
+    "relapse": 38
+  },
+  "x_path": "data/final/GSE17920/X_features_x_samples.csv",
+  "y_path": "data/final/GSE17920/y.csv",
+  "source_expression_path": "data/processed/GSE17920/expression_matrix_features_x_samples.csv",
+  "source_metadata_path": "data/processed/GSE17920/sample_metadata.csv",
+  "notes": "Legacy-preserving binary endpoint: any recorded relapse type vs no relapse marker '_'."
+}

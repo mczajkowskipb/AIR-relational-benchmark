@@ -2,8 +2,8 @@
   "dataset_id": "GSE27272",
   "label_column": "smoking status:ch1",
   "sample_id_column": "sample_id",
-  "positive_raw": "smoker",
-  "negative_raw": "non-smoker",
+  "positive_raw_values": "smoker",
+  "negative_raw_values": "non-smoker",
   "positive_label": "smoker",
   "negative_label": "non_smoker",
   "exclude_raw_values": [],
@@ -17,5 +17,5 @@
   "y_path": "data/final/GSE27272/y.csv",
   "source_expression_path": "data/processed/GSE27272/expression_matrix_features_x_samples.csv",
   "source_metadata_path": "data/processed/GSE27272/sample_metadata.csv",
-  "notes": "Smoking status; includes multiple tissue types, should be documented as such."
+  "notes": "Impact of tobacco smoke: smoker vs non-smoker."
 }

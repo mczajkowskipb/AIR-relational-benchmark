@@ -1,0 +1,21 @@
+{
+  "dataset_id": "GSE3365",
+  "label_column": "source_name_ch1",
+  "sample_id_column": "sample_id",
+  "positive_raw_values": ["PBMCs from Crohn's Disease subject", "PBMCs from Ulcerative Colitis subject"],
+  "negative_raw_values": "PBMCs from Normal subject",
+  "positive_label": "ibd",
+  "negative_label": "normal",
+  "exclude_raw_values": [],
+  "n_samples": 127,
+  "n_features": 22283,
+  "class_counts": {
+    "ibd": 85,
+    "normal": 42
+  },
+  "x_path": "data/final/GSE3365/X_features_x_samples.csv",
+  "y_path": "data/final/GSE3365/y.csv",
+  "source_expression_path": "data/processed/GSE3365/expression_matrix_features_x_samples.csv",
+  "source_metadata_path": "data/processed/GSE3365/sample_metadata.csv",
+  "notes": "Inflammatory bowel disease: Crohn's Disease plus Ulcerative Colitis vs Normal; keeps all 127 samples."
+}

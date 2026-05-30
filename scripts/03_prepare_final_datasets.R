@@ -68,29 +68,42 @@ prepare_one <- function(row) {
     stop("Sample ID column not found in metadata: ", sample_id_column)
   }
 
-  positive_raw <- row$positive_raw
-  negative_raw <- row$negative_raw
+  positive_raw_values <- split_values(row$positive_raw)
+  negative_raw_values <- split_values(row$negative_raw)
   exclude_raw_values <- split_values(row$exclude_raw_values)
 
   raw_label <- as.character(meta[[label_column]])
   sample_id <- as.character(meta[[sample_id_column]])
 
-  keep_pos <- raw_label == positive_raw
-  keep_neg <- raw_label == negative_raw
+  keep_pos <- raw_label %in% positive_raw_values
+  keep_neg <- raw_label %in% negative_raw_values
   keep_exclude <- raw_label %in% exclude_raw_values
 
   keep <- keep_pos | keep_neg
   keep[keep_exclude] <- FALSE
 
+  final_raw_label <- raw_label[keep]
+  final_sample_id <- sample_id[keep]
+
+  class_label <- ifelse(
+    final_raw_label %in% positive_raw_values,
+    row$positive_label,
+    ifelse(final_raw_label %in% negative_raw_values, row$negative_label, NA_character_)
+  )
+
   y <- data.frame(
     dataset_id = dataset_id,
-    sample_id = sample_id[keep],
-    raw_label = raw_label[keep],
-    class_label = ifelse(raw_label[keep] == positive_raw, row$positive_label, row$negative_label),
+    sample_id = final_sample_id,
+    raw_label = final_raw_label,
+    class_label = class_label,
     positive_label = row$positive_label,
     negative_label = row$negative_label,
     stringsAsFactors = FALSE
   )
+
+  if (any(is.na(y$class_label))) {
+    stop("Some retained samples have unresolved class_label for ", dataset_id)
+  }
 
   if (nrow(y) == 0) {
     stop("No samples retained for ", dataset_id)
@@ -129,8 +142,8 @@ prepare_one <- function(row) {
     dataset_id = dataset_id,
     label_column = label_column,
     sample_id_column = sample_id_column,
-    positive_raw = positive_raw,
-    negative_raw = negative_raw,
+    positive_raw_values = positive_raw_values,
+    negative_raw_values = negative_raw_values,
     positive_label = row$positive_label,
     negative_label = row$negative_label,
     exclude_raw_values = exclude_raw_values,

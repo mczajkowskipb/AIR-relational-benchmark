@@ -2,20 +2,20 @@
   "dataset_id": "GDS2771",
   "label_column": "disease.state",
   "sample_id_column": "sample",
-  "positive_raw": "cancer",
-  "negative_raw": "no cancer",
+  "positive_raw_values": ["cancer", "suspect cancer"],
+  "negative_raw_values": "no cancer",
   "positive_label": "cancer",
   "negative_label": "no_cancer",
-  "exclude_raw_values": "suspect cancer",
-  "n_samples": 187,
+  "exclude_raw_values": [],
+  "n_samples": 192,
   "n_features": 22283,
   "class_counts": {
-    "cancer": 97,
+    "cancer": 102,
     "no_cancer": 90
   },
   "x_path": "data/final/GDS2771/X_features_x_samples.csv",
   "y_path": "data/final/GDS2771/y.csv",
   "source_expression_path": "data/processed/GDS2771/expression_matrix_features_x_samples.csv",
   "source_metadata_path": "data/processed/GDS2771/gds_columns.csv",
-  "notes": "Exclude suspect cancer samples; binary cancer vs no cancer."
+  "notes": "Legacy-preserving binary mapping: cancer and suspect cancer vs no cancer; keeps all 192 samples."
 }

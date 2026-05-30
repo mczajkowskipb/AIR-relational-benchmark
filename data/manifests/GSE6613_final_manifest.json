@@ -1,0 +1,21 @@
+{
+  "dataset_id": "GSE6613",
+  "label_column": "characteristics_ch1",
+  "sample_id_column": "sample_id",
+  "positive_raw_values": "Parkinson's disease",
+  "negative_raw_values": ["neurological disease control", "healthy control"],
+  "positive_label": "parkinson",
+  "negative_label": "control",
+  "exclude_raw_values": [],
+  "n_samples": 105,
+  "n_features": 22283,
+  "class_counts": {
+    "control": 55,
+    "parkinson": 50
+  },
+  "x_path": "data/final/GSE6613/X_features_x_samples.csv",
+  "y_path": "data/final/GSE6613/y.csv",
+  "source_expression_path": "data/processed/GSE6613/expression_matrix_features_x_samples.csv",
+  "source_metadata_path": "data/processed/GSE6613/sample_metadata.csv",
+  "notes": "Parkinson's disease vs neurological disease and healthy controls; keeps all 105 samples."
+}
