@@ -1,5 +1,5 @@
 "method_id","method_family","source","language","status","requires_external_code","probabilities","model_size_available","notes"
-"majority","classic","internal","R","PASS_WRAPPER","no","no","no","majority class baseline"
+"majority","classic","internal","R","PASS_SMOKE","no","no","no","majority class baseline"
 "glmnet_enet","classic","internal","R","PASS_ENV","no","yes","features","elastic net logistic regression"
 "svm_linear","classic","e1071","R","PASS_ENV","no","no","features","linear SVM baseline"
 "ranger_rf","classic","ranger","R","PASS_ENV","no","yes","features","random forest baseline"

@@ -13,7 +13,7 @@ Status labels:
 
 | method_id | status | notes |
 |---|---:|---|
-| majority | PASS_WRAPPER | Internal majority-class baseline wrapper passed functional probe. |
+| majority | PASS_SMOKE | Majority-class baseline passed real-fold smoke test on all eight datasets. |
 | glmnet_enet | PASS_ENV | `glmnet` installed and loadable. |
 | svm_linear | PASS_ENV | `e1071` installed and loadable. |
 | ranger_rf | PASS_ENV | `ranger` installed and loadable. |
