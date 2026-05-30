@@ -1,0 +1,23 @@
+protocol_id: legacy_figure4_reproduction
+description: "Protocol intended to reproduce the manuscript's previous Figure 4 as closely as possible."
+datasets:
+  - GDS2771
+  - GSE10072
+  - GSE17920
+  - GSE19804
+  - GSE25837
+  - GSE27272
+  - GSE3365
+  - GSE6613
+methods:
+  - switchbox_tsp
+  - switchbox_ktsp
+  - svm_ktsp
+  - ger
+  - rankcompv2
+  - ranktreeensemble
+  - tspdt_bigtsp
+preprocessing:
+  - mad_top1000
+notes:
+  - "This protocol is a reconstruction target. Historical preprocessing details must be verified before claiming exact reproduction."

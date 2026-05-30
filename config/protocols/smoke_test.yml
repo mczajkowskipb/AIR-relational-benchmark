@@ -1,0 +1,22 @@
+protocol_id: smoke_test
+description: "Minimal sanity benchmark before full runs."
+datasets:
+  - GDS2771
+methods:
+  - majority
+  - glmnet_enet
+  - svm_linear
+  - switchbox_tsp
+  - switchbox_ktsp
+preprocessing:
+  - mad_top1000
+cv:
+  repeats: 2
+  folds: 2
+  stratified: true
+outputs:
+  save_predictions: true
+  save_metrics: true
+  save_runtime: true
+  save_selected_features: true
+  save_model_info: true

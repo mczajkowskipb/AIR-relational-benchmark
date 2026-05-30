@@ -1,0 +1,39 @@
+protocol_id: revised_mad_top1000
+description: "Leakage-controlled benchmark with train-fold-only MAD filtering."
+datasets:
+  - GDS2771
+  - GSE10072
+  - GSE17920
+  - GSE19804
+  - GSE25837
+  - GSE27272
+  - GSE3365
+  - GSE6613
+methods:
+  - majority
+  - glmnet_enet
+  - svm_linear
+  - ranger_rf
+  - xgboost_shallow
+  - switchbox_tsp
+  - switchbox_ktsp
+  - svm_ktsp
+  - ger
+  - rankcompv2
+  - ranktreeensemble
+  - tspdt_bigtsp
+preprocessing:
+  - mad_top1000
+cv:
+  repeats: 10
+  folds: 10
+  stratified: true
+parallel:
+  max_jobs: 29
+outputs:
+  save_predictions: true
+  save_metrics: true
+  save_runtime: true
+  save_selected_features: true
+  save_selected_relations: true
+  save_model_info: true

@@ -1,0 +1,4 @@
+preprocessing_id,feature_filter,filter_train_only,n_features,scaling,imputation,notes
+mad_top1000,MAD,yes,1000,method_specific,train_only,primary leakage-controlled preprocessing
+mad_top2000,MAD,yes,2000,method_specific,train_only,sensitivity analysis
+none,none,yes,NA,method_specific,train_only,no feature filtering; mainly for small smoke tests

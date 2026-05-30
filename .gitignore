@@ -1,0 +1,39 @@
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Raw and processed data can be large or externally downloaded
+data/raw/
+data/processed/
+
+# Keep fold definitions and manifests trackable unless too large
+!data/folds/
+!data/manifests/
+
+# Results are regenerated
+results/predictions/
+results/metrics/
+results/model_artifacts/
+results/selected_features/
+results/selected_relations/
+results/runtime/
+results/logs/
+results/aggregated/
+
+# Generated figures
+figures/*.pdf
+figures/*.png
+figures/*.svg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
