@@ -1,3 +1,11 @@
+safe_div <- function(num, den, zero_if_undefined = TRUE) {
+  ifelse(
+    den > 0,
+    num / den,
+    ifelse(zero_if_undefined, 0, NA_real_)
+  )
+}
+
 compute_binary_metrics <- function(truth, pred, score = NULL, positive = NULL) {
   truth <- factor(truth)
   pred <- factor(pred, levels = levels(truth))
@@ -25,30 +33,30 @@ compute_binary_metrics <- function(truth, pred, score = NULL, positive = NULL) {
 
   accuracy <- mean(truth == pred, na.rm = TRUE)
 
-  sensitivity <- ifelse((tp + fn) > 0, tp / (tp + fn), NA_real_)
-  specificity <- ifelse((tn + fp) > 0, tn / (tn + fp), NA_real_)
-  balanced_accuracy <- mean(c(sensitivity, specificity), na.rm = TRUE)
+  sensitivity <- safe_div(tp, tp + fn)
+  specificity <- safe_div(tn, tn + fp)
+  balanced_accuracy <- mean(c(sensitivity, specificity))
 
-  precision_pos <- ifelse((tp + fp) > 0, tp / (tp + fp), NA_real_)
+  precision_pos <- safe_div(tp, tp + fp)
   recall_pos <- sensitivity
   f1_pos <- ifelse(
-    is.na(precision_pos) || is.na(recall_pos) || (precision_pos + recall_pos) == 0,
-    NA_real_,
-    2 * precision_pos * recall_pos / (precision_pos + recall_pos)
+    (precision_pos + recall_pos) > 0,
+    2 * precision_pos * recall_pos / (precision_pos + recall_pos),
+    0
   )
 
-  precision_neg <- ifelse((tn + fn) > 0, tn / (tn + fn), NA_real_)
+  precision_neg <- safe_div(tn, tn + fn)
   recall_neg <- specificity
   f1_neg <- ifelse(
-    is.na(precision_neg) || is.na(recall_neg) || (precision_neg + recall_neg) == 0,
-    NA_real_,
-    2 * precision_neg * recall_neg / (precision_neg + recall_neg)
+    (precision_neg + recall_neg) > 0,
+    2 * precision_neg * recall_neg / (precision_neg + recall_neg),
+    0
   )
 
-  macro_f1 <- mean(c(f1_pos, f1_neg), na.rm = TRUE)
+  macro_f1 <- mean(c(f1_pos, f1_neg))
 
   denom <- sqrt((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn))
-  mcc <- ifelse(denom > 0, ((tp * tn) - (fp * fn)) / denom, NA_real_)
+  mcc <- ifelse(denom > 0, ((tp * tn) - (fp * fn)) / denom, 0)
 
   auc <- NA_real_
   brier <- NA_real_
