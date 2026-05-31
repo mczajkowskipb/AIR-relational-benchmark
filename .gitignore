@@ -37,3 +37,12 @@ __pycache__/
 *.log
 *.tmp
 .DS_Store
+
+# Large/generated benchmark artifacts
+data/final/
+results/jobs/
+results/job_grid/
+results/predictions/
+results/model_artifacts/
+results/selected_features/
+results/logs/
