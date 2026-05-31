@@ -38,7 +38,7 @@ for (dataset_id in fold_summary$dataset_id) {
         method_id = method_id,
         repeat_id = combos$repeat_id[i],
         fold_id = combos$fold_id[i],
-        n_features = 200,
+        n_features = 100,
         stringsAsFactors = FALSE
       )
     }

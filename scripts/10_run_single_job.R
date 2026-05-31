@@ -44,7 +44,14 @@ if (method_id == "majority") {
 } else if (method_id == "rrf_ranktreeensemble") {
   suppressPackageStartupMessages(library(ranktreeEnsemble))
   source("R/methods/method_ranktreeensemble.R")
-} else if (method_id %in% c("glmnet_enet", "svm_linear", "knn_euclidean", "rpart_tree", "ranger_rf", "xgboost_shallow")) {
+} else if (method_id %in% c(
+  "glmnet_enet",
+  "svm_linear",
+  "knn_euclidean",
+  "rpart_tree",
+  "ranger_rf",
+  "xgboost_shallow"
+)) {
   suppressPackageStartupMessages(library(glmnet))
   suppressPackageStartupMessages(library(e1071))
   suppressPackageStartupMessages(library(class))
@@ -85,16 +92,43 @@ tryCatch({
   folds <- load_fold_table(protocol_id, dataset_id)
   split <- get_fold_split(ds, folds, repeat_id, fold_id)
 
+  if (nrow(split$x_train) != length(split$y_train)) {
+    stop("Dimension mismatch before preprocessing: nrow(x_train)=",
+         nrow(split$x_train), " length(y_train)=", length(split$y_train))
+  }
+
+  if (nrow(split$x_test) != length(split$y_test)) {
+    stop("Dimension mismatch before preprocessing: nrow(x_test)=",
+         nrow(split$x_test), " length(y_test)=", length(split$y_test))
+  }
+
+  scale_flag <- method_id %in% c(
+    "glmnet_enet",
+    "svm_linear",
+    "knn_euclidean",
+    "xgboost_shallow"
+  )
+
   prep <- fit_preprocessing(
     split$x_train,
     feature_filter = "mad",
     n_features = min(n_features, ncol(split$x_train)),
     impute = TRUE,
-    scale = method_id %in% c("glmnet_enet", "svm_linear", "knn_euclidean", "xgboost_shallow")
+    scale = scale_flag
   )
 
   x_train_p <- apply_preprocessing(split$x_train, prep)
   x_test_p <- apply_preprocessing(split$x_test, prep)
+
+  if (nrow(x_train_p) != length(split$y_train)) {
+    stop("Dimension mismatch after preprocessing: nrow(x_train_p)=",
+         nrow(x_train_p), " length(y_train)=", length(split$y_train))
+  }
+
+  if (nrow(x_test_p) != length(split$y_test)) {
+    stop("Dimension mismatch after preprocessing: nrow(x_test_p)=",
+         nrow(x_test_p), " length(y_test)=", length(split$y_test))
+  }
 
   positive <- levels(split$y_train)[2]
 
@@ -128,38 +162,66 @@ tryCatch({
       y_train = split$y_train,
       x_test = x_test_p,
       y_test = split$y_test,
-      config = list(
-        method_id = method_id,
-        positive = positive,
-        mincut = 2,
-        minsize = 5,
-        mindev = 0.001
-      )
+      config = list(method_id = method_id, positive = positive, mincut = 2, minsize = 5, mindev = 0.001)
     )
   } else if (method_id == "rrf_ranktreeensemble") {
     res <- fit_predict_ranktreeensemble_rforest(
       x_train = x_train_p,
-      y_train = split,
+      y_train = split$y_train,
       x_test = x_test_p,
-      y_test = split,
-      config = list(
-        method_id = method_id,
-        positive = positive,
-        ntree = 50,
-        seed = 20260530 + repeat_id * 100 + fold_id,
-        extract_rules = FALSE
-      )
+      y_test = split$y_test,
+      config = list(method_id = method_id, positive = positive, ntree = 50, seed = 20260530 + repeat_id * 100 + fold_id, extract_rules = FALSE)
     )
   } else if (method_id == "glmnet_enet") {
-    res <- fit_predict_glmnet_enet(x_train_p, split, x_test_p, split, list(positive = positive, seed = 20260530 + repeat_id * 100 + fold_id))
+    res <- fit_predict_glmnet_enet(
+      x_train = x_train_p,
+      y_train = split$y_train,
+      x_test = x_test_p,
+      y_test = split$y_test,
+      config = list(positive = positive, seed = 20260530 + repeat_id * 100 + fold_id)
+    )
   } else if (method_id == "svm_linear") {
-    res <- fit_predict_svm_linear(x_train_p, split, x_test_p, split, list(positive = positive))
+    res <- fit_predict_svm_linear(
+      x_train = x_train_p,
+      y_train = split$y_train,
+      x_test = x_test_p,
+      y_test = split$y_test,
+      config = list(positive = positive)
+    )
   } else if (method_id == "knn_euclidean") {
-    res <- fit_predict_knn_euclidean(x_train_p, split, x_test_p, split, list(positive = positive, k = 5))
+    res <- fit_predict_knn_euclidean(
+      x_train = x_train_p,
+      y_train = split$y_train,
+      x_test = x_test_p,
+      y_test = split$y_test,
+      config = list(positive = positive, k = 5)
+    )
   } else if (method_id == "rpart_tree") {
-    res <- fit_predict_rpart_tree(x_train_p, split, x_test_p, split, list(positive = positive))
+    res <- fit_predict_rpart_tree(
+      x_train = x_train_p,
+      y_train = split$y_train,
+      x_test = x_test_p,
+      y_test = split$y_test,
+      config = list(positive = positive)
+    )
   } else if (method_id == "ranger_rf") {
-    res <- fit_predict_ranger_rf(x_train_p, split, x_test_p, split, list(positive = positive, seed = 20260530 + repeat_id * 100 + fold_id))
+    res <- fit_predict_ranger_rf(
+      x_train = x_train_p,
+      y_train = split$y_train,
+      x_test = x_test_p,
+      y_test = split$y_test,
+      config = list(positive = positive, seed = 20260530 + repeat_id * 100 + fold_id)
+    )
+  } else if (method_id == "xgboost_shallow") {
+    res <- fit_predict_xgboost_shallow(
+      x_train = x_train_p,
+      y_train = split$y_train,
+      x_test = x_test_p,
+      y_test = split$y_test,
+      config = list(positive = positive, seed = 20260530 + repeat_id * 100 + fold_id)
+    )
+  } else {
+    stop("No execution branch for method_id: ", method_id)
   }
 
   res$predictions$dataset_id <- dataset_id

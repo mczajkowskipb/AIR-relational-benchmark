@@ -188,7 +188,7 @@ fit_predict_ranger_rf <- function(x_train, y_train, x_test, y_test, config = lis
     class_label ~ .,
     data = train_df,
     probability = TRUE,
-    num.trees = 100,
+    num.trees = 50,
     mtry = max(1, floor(sqrt(ncol(x_train)))),
     min.node.size = 5,
     seed = if (!is.null(config$seed)) config$seed else 123,
@@ -209,7 +209,7 @@ fit_predict_ranger_rf <- function(x_train, y_train, x_test, y_test, config = lis
   end_predict <- Sys.time()
 
   runtime <- make_runtime_table(method_id, as.numeric(difftime(end_train, start_train, units = "secs")), as.numeric(difftime(end_predict, start_predict, units = "secs")))
-  model_info <- make_model_info(method_id, model_size = 100L, n_features_used = ncol(x_train), n_relations_used = 0L, notes = "ranger RF; num.trees=100; mtry=sqrt(p); min.node.size=5; num.threads=1; no tuning")
+  model_info <- make_model_info(method_id, model_size = 25L, n_features_used = ncol(x_train), n_relations_used = 0L, notes = "ranger RF; num.trees=50; mtry=sqrt(p); min.node.size=5; num.threads=1; no tuning")
 
   result <- list(predictions = predictions, metrics = metrics, model_info = model_info, runtime = runtime, model = fit)
   validate_method_result(result)
@@ -244,7 +244,7 @@ fit_predict_xgboost_shallow <- function(x_train, y_train, x_test, y_test, config
       nthread = 1
     ),
     data = dtrain,
-    nrounds = 50,
+    nrounds = 25,
     verbose = 0
   )
 
@@ -260,7 +260,7 @@ fit_predict_xgboost_shallow <- function(x_train, y_train, x_test, y_test, config
   end_predict <- Sys.time()
 
   runtime <- make_runtime_table(method_id, as.numeric(difftime(end_train, start_train, units = "secs")), as.numeric(difftime(end_predict, start_predict, units = "secs")))
-  model_info <- make_model_info(method_id, model_size = 50L, n_features_used = ncol(x_train), n_relations_used = 0L, notes = "xgboost shallow; max_depth=2; eta=0.1; nrounds=50; no tuning")
+  model_info <- make_model_info(method_id, model_size = 25L, n_features_used = ncol(x_train), n_relations_used = 0L, notes = "xgboost shallow; max_depth=2; eta=0.1; nrounds=25; no tuning")
 
   result <- list(predictions = predictions, metrics = metrics, model_info = model_info, runtime = runtime, model = fit)
   validate_method_result(result)
