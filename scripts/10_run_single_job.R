@@ -44,6 +44,14 @@ if (method_id == "majority") {
 } else if (method_id == "rrf_ranktreeensemble") {
   suppressPackageStartupMessages(library(ranktreeEnsemble))
   source("R/methods/method_ranktreeensemble.R")
+} else if (method_id %in% c("glmnet_enet", "svm_linear", "knn_euclidean", "rpart_tree", "ranger_rf", "xgboost_shallow")) {
+  suppressPackageStartupMessages(library(glmnet))
+  suppressPackageStartupMessages(library(e1071))
+  suppressPackageStartupMessages(library(class))
+  suppressPackageStartupMessages(library(rpart))
+  suppressPackageStartupMessages(library(ranger))
+  suppressPackageStartupMessages(library(xgboost))
+  source("R/methods/method_classic_ml.R")
 } else {
   stop("Unsupported method_id: ", method_id)
 }
@@ -82,7 +90,7 @@ tryCatch({
     feature_filter = "mad",
     n_features = min(n_features, ncol(split$x_train)),
     impute = TRUE,
-    scale = FALSE
+    scale = method_id %in% c("glmnet_enet", "svm_linear", "knn_euclidean", "xgboost_shallow")
   )
 
   x_train_p <- apply_preprocessing(split$x_train, prep)
@@ -131,9 +139,9 @@ tryCatch({
   } else if (method_id == "rrf_ranktreeensemble") {
     res <- fit_predict_ranktreeensemble_rforest(
       x_train = x_train_p,
-      y_train = split$y_train,
+      y_train = split,
       x_test = x_test_p,
-      y_test = split$y_test,
+      y_test = split,
       config = list(
         method_id = method_id,
         positive = positive,
@@ -142,6 +150,16 @@ tryCatch({
         extract_rules = FALSE
       )
     )
+  } else if (method_id == "glmnet_enet") {
+    res <- fit_predict_glmnet_enet(x_train_p, split, x_test_p, split, list(positive = positive, seed = 20260530 + repeat_id * 100 + fold_id))
+  } else if (method_id == "svm_linear") {
+    res <- fit_predict_svm_linear(x_train_p, split, x_test_p, split, list(positive = positive))
+  } else if (method_id == "knn_euclidean") {
+    res <- fit_predict_knn_euclidean(x_train_p, split, x_test_p, split, list(positive = positive, k = 5))
+  } else if (method_id == "rpart_tree") {
+    res <- fit_predict_rpart_tree(x_train_p, split, x_test_p, split, list(positive = positive))
+  } else if (method_id == "ranger_rf") {
+    res <- fit_predict_ranger_rf(x_train_p, split, x_test_p, split, list(positive = positive, seed = 20260530 + repeat_id * 100 + fold_id))
   }
 
   res$predictions$dataset_id <- dataset_id
