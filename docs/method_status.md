@@ -18,11 +18,13 @@ Status labels:
 | switchbox_ktsp | PASS_FULL | switchBox k-TSP completed full `cv_10x10` protocol on all eight datasets. |
 | tspdt_bigtsp | PASS_FULL | BigTSP TSP-tree completed full `cv_10x10` protocol on all eight datasets. Prediction requires `newdata` with response in the first column. |
 | rrf_ranktreeensemble | PASS_FULL | ranktreeEnsemble Random Rank Forest completed full `cv_10x10` protocol on all eight datasets. |
+| glmnet_enet | PASS_FULL | Lightweight elastic-net logistic regression baseline completed full `cv_10x10`; alpha=0.5, train-only CV for lambda. |
+| svm_linear | PASS_FULL | Lightweight linear SVM baseline completed full `cv_10x10`; cost=1, no tuning. |
+| knn_euclidean | PASS_FULL | Euclidean kNN baseline completed full `cv_10x10`; k=5, train-only scaling. |
+| rpart_tree | PASS_FULL | CART/rpart baseline completed full `cv_10x10`; lightweight non-tuned configuration. |
+| ranger_rf | PASS_FULL | Random forest baseline completed full `cv_10x10`; 50 trees, mtry=sqrt(p), no tuning. |
+| xgboost_shallow | PASS_FULL | Shallow XGBoost baseline completed full `cv_10x10`; max_depth=2, 25 rounds, no tuning. |
 | rtb_ranktreeensemble | PASS_ENV | `ranktreeEnsemble::rboost` package environment available; full benchmark not run unless required for manuscript coverage. |
-| glmnet_enet | PASS_ENV | `glmnet` installed and loadable; non-relational benchmark wrapper pending. |
-| svm_linear | PASS_ENV | `e1071` installed and loadable; non-relational benchmark wrapper pending. |
-| ranger_rf | PASS_ENV | `ranger` installed and loadable; non-relational benchmark wrapper pending. |
-| xgboost_shallow | PASS_ENV | `xgboost` installed and loadable; source build was slow but successful. |
 | svm_ktsp | TODO | Requires definition of exact historical implementation. |
 | ger | TODO | Requires verification of implementation used in manuscript. |
 | rankcompv2 | TODO | Requires verification of implementation used in manuscript. |
