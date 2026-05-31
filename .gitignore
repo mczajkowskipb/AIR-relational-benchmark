@@ -46,3 +46,11 @@ results/predictions/
 results/model_artifacts/
 results/selected_features/
 results/logs/
+
+# Python local environment and external method sources
+.venv/
+external/
+results/python_probe/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

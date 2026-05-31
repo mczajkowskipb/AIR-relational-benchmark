@@ -47,3 +47,20 @@ A method should be added to the full benchmark only if:
 5. its task matches the supervised binary benchmark.
 
 Methods that fail these criteria should be documented as `PARTIAL`, `SKIPPED`, or `STATUS_ONLY`, not silently removed.
+
+## Python/R notebook probe: wucc009 gene-pair repository
+
+The repository `wucc009/Implementation-and-comparison-of-gene-pair-methods` has been added as an external probe target. It is not vendored into this repository. Local clone path: `external/wucc009_gene_pair_methods`.
+
+Candidate methods listed by the upstream README:
+
+| method | upstream language | local status | intended action |
+|---|---:|---:|---|
+| TSP | Python 3.10.13 | PROBE_ONLY | Convert to callable train/predict wrapper if notebook code is sufficiently modular. |
+| k-TSP+SVM | Python 3.10.13 | PROBE_ONLY | Inspect feature generation and SVM interface. |
+| REOs | Python 3.10.13 | PROBE_ONLY | Determine whether the task matches binary supervised benchmarking. |
+| REOs+ML | Python 3.10.13 | PROBE_ONLY | Inspect generated features and downstream ML model. |
+| TSP+ML | Python 3.10.13 | PROBE_ONLY | Inspect generated TSP features and downstream ML model. |
+| GERs | R 4.2.3 | PROBE_ONLY | Inspect separately; likely R wrapper, not Python. |
+| k-TSP | R 4.2.3 | ALREADY_COVERED_PARTLY | Current benchmark already includes switchBox k-TSP; compare definitions before adding duplicate. |
+| TSPG | R 4.2.3 | PROBE_ONLY | Inspect separately. |
