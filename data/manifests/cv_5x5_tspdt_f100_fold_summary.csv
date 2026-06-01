@@ -1,0 +1,9 @@
+dataset_id,protocol_id,n_samples,n_repeats,n_folds,class_counts,fold_file
+GDS2771,cv_5x5_tspdt_f100,192,5,5,cancer:102;no_cancer:90,data/folds/cv_5x5_tspdt_f100__GDS2771.csv
+GSE10072,cv_5x5_tspdt_f100,107,5,5,tumor:58;normal:49,data/folds/cv_5x5_tspdt_f100__GSE10072.csv
+GSE17920,cv_5x5_tspdt_f100,130,5,5,no_relapse:92;relapse:38,data/folds/cv_5x5_tspdt_f100__GSE17920.csv
+GSE19804,cv_5x5_tspdt_f100,120,5,5,tumor:60;normal:60,data/folds/cv_5x5_tspdt_f100__GSE19804.csv
+GSE25837,cv_5x5_tspdt_f100,93,5,5,not_lonely:70;lonely:23,data/folds/cv_5x5_tspdt_f100__GSE25837.csv
+GSE27272,cv_5x5_tspdt_f100,183,5,5,non_smoker:128;smoker:55,data/folds/cv_5x5_tspdt_f100__GSE27272.csv
+GSE3365,cv_5x5_tspdt_f100,127,5,5,ibd:85;normal:42,data/folds/cv_5x5_tspdt_f100__GSE3365.csv
+GSE6613,cv_5x5_tspdt_f100,105,5,5,control:55;parkinson:50,data/folds/cv_5x5_tspdt_f100__GSE6613.csv
