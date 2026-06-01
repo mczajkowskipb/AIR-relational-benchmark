@@ -1,0 +1,2 @@
+method_id,n_datasets,mean_accuracy,mean_balanced_accuracy,mean_macro_f1,mean_mcc,sd_balanced_accuracy_across_datasets,sd_macro_f1_across_datasets,sd_mcc_across_datasets,mean_n_features,mean_k
+pyrrm_knn5,8,0.7342051296441776,0.6723136481573981,0.651913110705208,0.340071514534598,0.2102535707520873,0.22331759503945556,0.4286960454933881,50.0,5.0
