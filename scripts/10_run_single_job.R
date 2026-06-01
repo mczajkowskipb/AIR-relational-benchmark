@@ -170,7 +170,7 @@ tryCatch({
       y_train = split$y_train,
       x_test = x_test_p,
       y_test = split$y_test,
-      config = list(method_id = method_id, positive = positive, ntree = 50, seed = 20260530 + repeat_id * 100 + fold_id, extract_rules = FALSE)
+      config = list(method_id = method_id, positive = positive, ntree = as.integer(Sys.getenv("RRF_NTREE", "50")), seed = 20260530 + repeat_id * 100 + fold_id, extract_rules = FALSE)
     )
   } else if (method_id == "glmnet_enet") {
     res <- fit_predict_glmnet_enet(
