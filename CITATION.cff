@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this benchmark repository, please cite the associated manuscript."
+title: "AIR Relational Benchmark"
+authors:
+  - family-names: "Czajkowski"
+    given-names: "Marcin"
+repository-code: "https://github.com/mczajkowskipb/AIR-relational-benchmark"
+license: "MIT"

@@ -1,0 +1,108 @@
+dataset_id,sample_id,raw_label,class_label,positive_label,negative_label
+GSE10072,GSM254625,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254626,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254627,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254628,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254629,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254630,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254631,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254632,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254633,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254634,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254635,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254636,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254637,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254638,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254639,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254640,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254641,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254642,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254643,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254644,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254645,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254646,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254647,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254648,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254649,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254650,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254651,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254652,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254653,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254654,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254655,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254656,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254657,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254658,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254659,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254660,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254661,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254662,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254663,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254664,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254665,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254666,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254667,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254668,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254669,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254670,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254671,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254672,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254673,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254674,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254675,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254676,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254677,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254678,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254679,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254680,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254681,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254682,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254683,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254684,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254685,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254686,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254687,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254688,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254689,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254690,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254691,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254692,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254693,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254694,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254695,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254696,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254697,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254698,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254699,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254700,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254701,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254702,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254703,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254704,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254705,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254706,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254707,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254708,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254709,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254710,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254711,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254712,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254713,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254714,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254715,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254716,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254717,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254718,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254719,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254720,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254721,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254722,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254723,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254724,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254725,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254726,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254727,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254728,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254729,Adenocarcinoma of the Lung,tumor,tumor,normal
+GSE10072,GSM254730,Normal Lung Tissue,normal,tumor,normal
+GSE10072,GSM254731,Normal Lung Tissue,normal,tumor,normal
