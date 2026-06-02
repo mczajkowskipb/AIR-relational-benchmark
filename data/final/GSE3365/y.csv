@@ -1,0 +1,128 @@
+dataset_id,sample_id,raw_label,class_label,positive_label,negative_label
+GSE3365,GSM76030,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76031,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76032,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76033,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76034,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76035,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76036,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76037,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76038,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76039,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76040,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76041,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76042,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76043,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76044,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76045,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76046,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76047,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76048,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76049,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76050,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76051,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76052,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76053,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76054,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76055,PBMCs from Ulcerative Colitis subject,ibd,ibd,normal
+GSE3365,GSM76056,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76057,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76058,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76059,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76060,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76061,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76062,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76063,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76064,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76065,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76066,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76067,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76068,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76069,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76070,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76071,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76072,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76073,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76074,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76075,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76076,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76077,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76078,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76079,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76080,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76081,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76082,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76083,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76084,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76085,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76086,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76087,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76088,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76089,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76090,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76091,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76092,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76093,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76094,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76095,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76096,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76097,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76098,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76099,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76100,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76101,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76102,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76103,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76104,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76105,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76106,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76107,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76108,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76109,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76110,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76111,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76112,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76113,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76114,PBMCs from Crohn's Disease subject,ibd,ibd,normal
+GSE3365,GSM76115,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76116,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76117,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76118,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76119,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76120,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76121,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76122,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76123,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76124,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76125,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76126,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76127,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76128,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76129,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76130,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76131,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76132,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76133,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76134,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76135,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76136,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76137,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76138,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76139,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76140,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76141,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76142,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76143,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76144,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76145,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76146,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76147,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76148,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76149,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76150,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76151,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76152,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76153,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76154,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76155,PBMCs from Normal subject,normal,ibd,normal
+GSE3365,GSM76156,PBMCs from Normal subject,normal,ibd,normal

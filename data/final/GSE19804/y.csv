@@ -1,0 +1,121 @@
+dataset_id,sample_id,raw_label,class_label,positive_label,negative_label
+GSE19804,GSM494556,lung cancer,tumor,tumor,normal
+GSE19804,GSM494557,lung cancer,tumor,tumor,normal
+GSE19804,GSM494558,lung cancer,tumor,tumor,normal
+GSE19804,GSM494559,lung cancer,tumor,tumor,normal
+GSE19804,GSM494560,lung cancer,tumor,tumor,normal
+GSE19804,GSM494561,lung cancer,tumor,tumor,normal
+GSE19804,GSM494562,lung cancer,tumor,tumor,normal
+GSE19804,GSM494563,lung cancer,tumor,tumor,normal
+GSE19804,GSM494564,lung cancer,tumor,tumor,normal
+GSE19804,GSM494565,lung cancer,tumor,tumor,normal
+GSE19804,GSM494566,lung cancer,tumor,tumor,normal
+GSE19804,GSM494567,lung cancer,tumor,tumor,normal
+GSE19804,GSM494568,lung cancer,tumor,tumor,normal
+GSE19804,GSM494569,lung cancer,tumor,tumor,normal
+GSE19804,GSM494570,lung cancer,tumor,tumor,normal
+GSE19804,GSM494571,lung cancer,tumor,tumor,normal
+GSE19804,GSM494572,lung cancer,tumor,tumor,normal
+GSE19804,GSM494573,lung cancer,tumor,tumor,normal
+GSE19804,GSM494574,lung cancer,tumor,tumor,normal
+GSE19804,GSM494575,lung cancer,tumor,tumor,normal
+GSE19804,GSM494576,lung cancer,tumor,tumor,normal
+GSE19804,GSM494577,lung cancer,tumor,tumor,normal
+GSE19804,GSM494578,lung cancer,tumor,tumor,normal
+GSE19804,GSM494579,lung cancer,tumor,tumor,normal
+GSE19804,GSM494580,lung cancer,tumor,tumor,normal
+GSE19804,GSM494581,lung cancer,tumor,tumor,normal
+GSE19804,GSM494582,lung cancer,tumor,tumor,normal
+GSE19804,GSM494583,lung cancer,tumor,tumor,normal
+GSE19804,GSM494584,lung cancer,tumor,tumor,normal
+GSE19804,GSM494585,lung cancer,tumor,tumor,normal
+GSE19804,GSM494586,lung cancer,tumor,tumor,normal
+GSE19804,GSM494587,lung cancer,tumor,tumor,normal
+GSE19804,GSM494588,lung cancer,tumor,tumor,normal
+GSE19804,GSM494589,lung cancer,tumor,tumor,normal
+GSE19804,GSM494590,lung cancer,tumor,tumor,normal
+GSE19804,GSM494591,lung cancer,tumor,tumor,normal
+GSE19804,GSM494592,lung cancer,tumor,tumor,normal
+GSE19804,GSM494593,lung cancer,tumor,tumor,normal
+GSE19804,GSM494594,lung cancer,tumor,tumor,normal
+GSE19804,GSM494595,lung cancer,tumor,tumor,normal
+GSE19804,GSM494596,lung cancer,tumor,tumor,normal
+GSE19804,GSM494597,lung cancer,tumor,tumor,normal
+GSE19804,GSM494598,lung cancer,tumor,tumor,normal
+GSE19804,GSM494599,lung cancer,tumor,tumor,normal
+GSE19804,GSM494600,lung cancer,tumor,tumor,normal
+GSE19804,GSM494601,lung cancer,tumor,tumor,normal
+GSE19804,GSM494602,lung cancer,tumor,tumor,normal
+GSE19804,GSM494603,lung cancer,tumor,tumor,normal
+GSE19804,GSM494604,lung cancer,tumor,tumor,normal
+GSE19804,GSM494605,lung cancer,tumor,tumor,normal
+GSE19804,GSM494606,lung cancer,tumor,tumor,normal
+GSE19804,GSM494607,lung cancer,tumor,tumor,normal
+GSE19804,GSM494608,lung cancer,tumor,tumor,normal
+GSE19804,GSM494609,lung cancer,tumor,tumor,normal
+GSE19804,GSM494610,lung cancer,tumor,tumor,normal
+GSE19804,GSM494611,lung cancer,tumor,tumor,normal
+GSE19804,GSM494612,lung cancer,tumor,tumor,normal
+GSE19804,GSM494613,lung cancer,tumor,tumor,normal
+GSE19804,GSM494614,lung cancer,tumor,tumor,normal
+GSE19804,GSM494615,lung cancer,tumor,tumor,normal
+GSE19804,GSM494616,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494617,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494618,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494619,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494620,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494621,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494622,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494623,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494624,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494625,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494626,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494627,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494628,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494629,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494630,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494631,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494632,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494633,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494634,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494635,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494636,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494637,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494638,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494639,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494640,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494641,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494642,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494643,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494644,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494645,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494646,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494647,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494648,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494649,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494650,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494651,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494652,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494653,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494654,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494655,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494656,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494657,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494658,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494659,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494660,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494661,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494662,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494663,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494664,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494665,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494666,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494667,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494668,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494669,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494670,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494671,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494672,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494673,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494674,paired normal adjacent,normal,tumor,normal
+GSE19804,GSM494675,paired normal adjacent,normal,tumor,normal

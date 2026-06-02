@@ -1,56 +1,53 @@
-.Rhistory
-.RData
+# Environments
+.venv/
 .Rproj.user/
-renv/library/
-renv/staging/
-
-# Raw and processed data can be large or externally downloaded
-data/raw/
-data/processed/
-
-# Keep fold definitions and manifests trackable unless too large
-!data/folds/
-!data/manifests/
-
-# Results are regenerated
-results/predictions/
-results/metrics/
-results/model_artifacts/
-results/selected_features/
-results/selected_relations/
-results/runtime/
-results/logs/
-results/aggregated/
-
-# Generated figures
-figures/*.pdf
-figures/*.png
-figures/*.svg
-
-# Python
 __pycache__/
 *.pyc
-.venv/
-.env
 
 # Logs and temporary files
 *.log
 *.tmp
-.DS_Store
+*.RData
+*.rds
 
-# Large/generated benchmark artifacts
-data/final/
-results/jobs/
-results/job_grid/
-results/predictions/
-results/model_artifacts/
-results/selected_features/
-results/logs/
+# Local helper scripts copied from ChatGPT
+air_repo_*.sh
+air_repo_cleanup*.sh
 
-# Python local environment and external method sources
-.venv/
+# Raw / processed local copies are not part of the minimal reviewer artifact.
+# Final benchmark matrices are tracked under data/final/.
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+
+# Development/probe runtime outputs
+results/*
+!results/summary/
+!results/summary/**
+!results/tables/
+!results/tables/**
+
+# Do not track smoke/development summaries or collection logs as final artifacts
+results/summary/smoke_*
+results/summary/*.log
+
+# External cloned repositories
 external/
-results/python_probe/
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
+
+# Front-matter backups generated during cleanup
+docs/_old_front_matter_backup/
+
+# Development-only scripts kept locally
+scripts/09_audit_rrf_ntree_incremental.R
+scripts/09_audit_rrf_variants.R
+scripts/09_probe_ranktreeensemble_rboost.R
+scripts/25_make_tspdt_f200_pps_grid.R
+scripts/run_tspdt_f200_pps_parallel.sh
+scripts/python/01_summarize_wucc009_export.py
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

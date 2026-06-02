@@ -1,0 +1,10 @@
+results/jobs/
+results/python_jobs/
+results/pyrrm_jobs/
+results/harmonized_cv5x5_f200/
+results/tspdt_f100/
+results/tspdt_f200_pps/
+results/audit/
+external/
+.venv/
+docs/_old_front_matter_backup/
