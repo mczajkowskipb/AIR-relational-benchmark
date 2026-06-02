@@ -1,0 +1,2 @@
+method_id,family,n_datasets,mean_accuracy,mean_balanced_accuracy,mean_macro_f1,mean_mcc,sd_balanced_accuracy_across_datasets,sd_macro_f1_across_datasets,sd_mcc_across_datasets
+tspdt_bigtsp,R,8,0.7174734119405173,0.6819755174349215,0.6782092559385573,0.3676751489246595,0.19168451995236585,0.19376447876052624,0.3851218682867479
