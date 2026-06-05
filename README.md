@@ -116,9 +116,11 @@ Important caveats:
 - `figures/repo_benchmark_overview.png`
 - `figures/repo_benchmark_overview.svg`
 
-## Citation
+## Associated manuscript
 
-If you use this repository, please cite the associated manuscript:
+This repository accompanies the manuscript currently under review:
 
 > Czajkowski M., Jurczuk K., Kretowski M.  
 > **Rank-Based Relational Methods for Interpretable Biomedical AI: A Taxonomic Review**.
+
+A formal citation will be added after publication. For now, please cite or reference this repository when reusing the benchmark artifact.
