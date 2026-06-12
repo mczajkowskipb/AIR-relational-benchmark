@@ -1,13 +1,13 @@
-# AIR Relational Benchmark
+# Reproducibility-Oriented Benchmark for Rank-Based Relational Biomedical Modeling
 
-Reproducibility artifact for the benchmark accompanying:
+Companion repository for:
 
-**Rank-Based Relational Methods for Interpretable Biomedical AI: A Taxonomic Review**
+**Rank-Based Relational Methods for Interpretable Biomedical Modeling: A Taxonomic Review**
 
 This repository provides benchmark-ready data matrices, fixed cross-validation folds, executable method wrappers, final result tables, and figure-generation scripts for a reproducibility-oriented comparison of rank-based/relational methods and representative standard ML baselines.
 
 <p align="center">
-  <img src="figures/repo_benchmark_overview.png" width="950" alt="AIR relational benchmark overview">
+  <img src="figures/repo_benchmark_overview.png" width="950" alt=Reproducibility-Oriented Benchmark overview">
 </p>
 
 ## Benchmark at a glance
