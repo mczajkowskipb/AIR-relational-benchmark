@@ -121,6 +121,6 @@ Important caveats:
 This repository accompanies the manuscript currently under review:
 
 > Czajkowski M., Jurczuk K., Kretowski M.  
-> **Rank-Based Relational Methods for Interpretable Biomedical AI: A Taxonomic Review**.
+> **Rank-Based Relational Methods for Interpretable Biomedical Modeling: A Taxonomic Review.**.
 
 A formal citation will be added after publication. For now, please cite or reference this repository when reusing the benchmark artifact.
